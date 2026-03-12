@@ -1,16 +1,16 @@
-# 💰 Salary Prediction Using Regression
+#  Salary Prediction Using Regression
 
-## 👩‍💻 Author
+##  Author
 **Name:** Janhavi Maurya
 
 ---
 
-## 📌 Project Title
+##  Project Title
 **Salary Prediction Using Regression with Streamlit Dashboard**
 
 ---
 
-## 📖 Project Description
+##  Project Description
 This project aims to **predict employee salaries using Machine Learning techniques** based on various features such as **Age, Gender, Education Level, Job Title, and Years of Experience**.
 
 The project uses **Linear Regression and other regression models** to analyze the relationship between these features and salary.
@@ -21,11 +21,11 @@ The system demonstrates how **machine learning can be used for data-driven salar
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 The project follows a complete **Machine Learning workflow**.
 
-### 1️⃣ Data Collection
+### 1️ Data Collection
 The dataset contains employee information such as:
 
 - Age  
@@ -37,7 +37,7 @@ The dataset contains employee information such as:
 
 ---
 
-### 2️⃣ Data Preprocessing
+### 2️ Data Preprocessing
 - Handling missing values  
 - Data cleaning  
 - Feature selection  
@@ -45,7 +45,7 @@ The dataset contains employee information such as:
 
 ---
 
-### 3️⃣ Feature Engineering
+### 3️ Feature Engineering
 
 **Input Features**
 
@@ -61,7 +61,7 @@ The dataset contains employee information such as:
 
 ---
 
-### 4️⃣ Model Training
+### 4️ Model Training
 
 The dataset is divided into **training and testing data** using **Train-Test Split**.
 
@@ -70,12 +70,12 @@ The dataset is divided into **training and testing data** using **Train-Test Spl
 
 ---
 
-### 5️⃣ Machine Learning Model
+### 5️ Machine Learning Model
 The project mainly uses **Linear Regression** to predict salary.
 
 ---
 
-### 6️⃣ Model Evaluation
+### 6️ Model Evaluation
 
 Model performance is evaluated using:
 
@@ -84,7 +84,7 @@ Model performance is evaluated using:
 
 ---
 
-### 7️⃣ Visualization
+### 7️ Visualization
 
 Different visualizations are created to understand the dataset:
 
@@ -94,7 +94,7 @@ Different visualizations are created to understand the dataset:
 
 ---
 
-### 8️⃣ Streamlit Dashboard
+### 8️ Streamlit Dashboard
 
 A **user-friendly dashboard** is developed where users can:
 
@@ -106,7 +106,7 @@ A **user-friendly dashboard** is developed where users can:
 
 ---
 
-## 📊 Results
+##  Results
 
 The trained machine learning model achieved the following performance:
 
@@ -126,7 +126,7 @@ and receive a **predicted salary output in real time**.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python  
 - Pandas  
@@ -137,12 +137,12 @@ and receive a **predicted salary output in real time**.
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Install Required Libraries
+### 1️ Install Required Libraries
 ```bash
 pip install pandas numpy scikit-learn matplotlib streamlit
-2️⃣ Run the Streamlit Dashboard
+2️ Run the Streamlit Dashboard
 streamlit run app.py
 
 
