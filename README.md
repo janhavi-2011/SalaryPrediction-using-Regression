@@ -144,7 +144,8 @@ and receive a **predicted salary output in real time**.
 pip install pandas numpy scikit-learn matplotlib streamlit
 2️⃣ Run the Streamlit Dashboard
 streamlit run app.py
-📌 Conclusion
+
+##📌 Conclusion
 
 This project demonstrates how Machine Learning and Data Visualization can be combined with Streamlit to build an interactive prediction system.
 
