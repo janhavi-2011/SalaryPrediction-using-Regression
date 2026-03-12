@@ -5,7 +5,7 @@
 ║                        Built with Streamlit                            ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
-Author: [Your Name]
+Author: [Janhavi Maurya]
 Project: Salary Prediction System
 Technologies: Python, Streamlit, Scikit-learn, Pandas, Plotly
 
@@ -1284,4 +1284,5 @@ st.sidebar.markdown("""
     <p>💰 Salary Prediction Dashboard</p>
     <p>Built with Streamlit</p>
 </div>
+
 """, unsafe_allow_html=True)
