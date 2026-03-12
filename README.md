@@ -1,142 +1,149 @@
-💰 Salary Prediction Using Regression
+# 💰 Salary Prediction Using Regression
 
-👩‍💻 Author
+## 👩‍💻 Author
+**Name:** Janhavi Maurya
 
-Name: Janhavi Maurya
+---
 
-📌 Project Title
+## 📌 Project Title
+**Salary Prediction Using Regression with Streamlit Dashboard**
 
-Salary Prediction Using Regression with Streamlit Dashboard
+---
 
-📖 Project Description
+## 📖 Project Description
+This project aims to **predict employee salaries using Machine Learning techniques** based on various features such as **Age, Gender, Education Level, Job Title, and Years of Experience**.
 
-This project aims to predict employee salaries using machine learning techniques based on various features such as Age, Gender, Education Level, Job Title, and Years of Experience.
+The project uses **Linear Regression and other regression models** to analyze the relationship between these features and salary.
 
-The project uses Linear Regression and other regression models to analyze the relationship between these features and salary. A Streamlit dashboard is developed to visualize the dataset, train models, compare model performance, and allow users to input employee details to predict salary in real time.
+A **Streamlit dashboard** is developed to visualize the dataset, train models, compare model performance, and allow users to input employee details to **predict salary in real time**.
 
-The system helps demonstrate how machine learning can be used for data-driven salary prediction and decision making.
+The system demonstrates how **machine learning can be used for data-driven salary prediction and decision making**.
 
-⚙️ Methodology
+---
 
-The project follows a complete Machine Learning workflow:
+## ⚙️ Methodology
 
-1️⃣ Data Collection
+The project follows a complete **Machine Learning workflow**.
 
-The dataset contains employee information such as age, gender, education level, job title, experience, and salary.
+### 1️⃣ Data Collection
+The dataset contains employee information such as:
 
-2️⃣ Data Preprocessing
+- Age  
+- Gender  
+- Education Level  
+- Job Title  
+- Years of Experience  
+- Salary  
 
-Handling missing values
+---
 
-Data cleaning
+### 2️⃣ Data Preprocessing
+- Handling missing values  
+- Data cleaning  
+- Feature selection  
+- Encoding categorical variables using **One Hot Encoding**
 
-Feature selection
+---
 
-Encoding categorical variables using One Hot Encoding
+### 3️⃣ Feature Engineering
 
-3️⃣ Feature Engineering
+**Input Features**
 
-Input features used in the model:
+- Age  
+- Gender  
+- Education Level  
+- Job Title  
+- Years of Experience  
 
-Age
+**Target Variable**
 
-Gender
+- Salary
 
-Education Level
+---
 
-Job Title
+### 4️⃣ Model Training
 
-Years of Experience
+The dataset is divided into **training and testing data** using **Train-Test Split**.
 
-Target variable:
+- **Training Data →** Model Learning  
+- **Testing Data →** Model Evaluation  
 
-Salary
+---
 
-4️⃣ Model Training
+### 5️⃣ Machine Learning Model
+The project mainly uses **Linear Regression** to predict salary.
 
-The dataset is divided into training and testing data using:
+---
 
-Train-Test Split
-Training Data → Model Learning
-Testing Data → Model Evaluation
-5️⃣ Machine Learning Model
-
-The project mainly uses Linear Regression to predict salary.
-
-6️⃣ Model Evaluation
+### 6️⃣ Model Evaluation
 
 Model performance is evaluated using:
 
-R² Score
+- **R² Score**
+- **Mean Squared Error (MSE)**
 
-Mean Squared Error (MSE)
+---
 
-7️⃣ Visualization
+### 7️⃣ Visualization
 
 Different visualizations are created to understand the dataset:
 
-Salary vs Experience Scatter Plot
+- Salary vs Experience Scatter Plot  
+- Actual vs Predicted Salary Graph  
+- Training and Testing Data Visualization  
 
-Actual vs Predicted Salary Graph
+---
 
-Training and Testing Data Visualization
+### 8️⃣ Streamlit Dashboard
 
-8️⃣ Streamlit Dashboard
+A **user-friendly dashboard** is developed where users can:
 
-A user-friendly dashboard is developed where users can:
+- View dataset information  
+- Train machine learning models  
+- Compare models  
+- Enter employee details  
+- Predict salary instantly  
 
-View dataset information
+---
 
-Train machine learning models
-
-Compare models
-
-Enter employee details
-
-Predict salary instantly
-
-📊 Results
+## 📊 Results
 
 The trained machine learning model achieved the following performance:
 
-R² Score: ≈ 0.90 (90%)
+**R² Score: ≈ 0.90 (90%)**
 
-This means the model explains about 90% of the variance in salary prediction, indicating strong predictive performance.
+This means the model explains about **90% of the variance in salary prediction**, indicating strong predictive performance.
 
-The dashboard also allows users to input details such as:
+The dashboard allows users to input details such as:
 
-Age
+- Age  
+- Gender  
+- Education Level  
+- Job Title  
+- Years of Experience  
 
-Gender
+and receive a **predicted salary output in real time**.
 
-Education Level
+---
 
-Job Title
+## 🛠 Technologies Used
 
-Years of Experience
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Streamlit  
 
-and receive a predicted salary output in real time.
+---
 
-🛠 Technologies Used
+## 🚀 How to Run the Project
 
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Streamlit
-
-🚀 How to Run the Project
-1️⃣ Install required libraries
+### 1️⃣ Install Required Libraries
+```bash
 pip install pandas numpy scikit-learn matplotlib streamlit
-2️⃣ Run the Streamlit dashboard
+2️⃣ Run the Streamlit Dashboard
 streamlit run app.py
-
 📌 Conclusion
 
 This project demonstrates how Machine Learning and Data Visualization can be combined with Streamlit to build an interactive prediction system.
