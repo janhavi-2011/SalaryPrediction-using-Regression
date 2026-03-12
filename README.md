@@ -145,8 +145,4 @@ pip install pandas numpy scikit-learn matplotlib streamlit
 2️⃣ Run the Streamlit Dashboard
 streamlit run app.py
 
-##📌 Conclusion
 
-This project demonstrates how Machine Learning and Data Visualization can be combined with Streamlit to build an interactive prediction system.
-
-The developed dashboard provides a simple way to explore the dataset and predict employee salaries using machine learning models.
